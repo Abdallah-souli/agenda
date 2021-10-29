@@ -1,0 +1,93 @@
+body {
+    background: url("montain.jpg") no-repeat ;
+    min-width:  100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#calendrier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    font-family: sans-serif;
+    
+}
+.mois{
+    text-align: center;
+    font-size: 2.6em;
+    color: #fff;
+    padding: 10px;
+    width: 1215px;
+    Letter-spacing: 1px;
+    border: 5px solid #fff;
+    background-color: rgba(0,0,0,0.5);
+}
+table th{
+    color: #fff;
+    background-color: rgba(0,0,0,0.3);
+}
+table, th, td{
+    width: 120px;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 25px;
+    border-collapse: collapse;
+    border: 5px solid #fff;
+    color: #fff;
+    padding: 25px;
+    cursor: pointer;
+}
+tr,th,td{
+    padding: 15px;
+    text-align: center;
+}
+tr td{
+    font-size: 30 px
+}
+th{
+    color: #fff;
+}
+td{
+    background: rgba(0, 0, 0, 0.5);
+}
+td:hover{
+    background: blue;
+}
+.la_plateforme{
+    background-color: rgb(233, 129, 31);
+}
+.la_plateforme:hover{
+    background: yellow;
+}
+.travail{
+    background-color: rgb(26, 121, 92);
+}
+.travail:hover{
+    background: lightgreen;
+}
+.conduite{
+    background-color:lightcyan ;
+    color: rgb(66, 58, 58)
+}
+.muscu{
+    background-color: rgb(218, 46, 23);
+}
+.muscu:hover{
+    background: red;
+}
+h1{
+    color:rgb(178, 192, 212)
+}
+
+h2{
+    color: rgb(73, 109, 138)
+}
+footer{
+    font: size 3px; 
+    font: italic;
+    color: rgb(73, 109, 138)
+}
